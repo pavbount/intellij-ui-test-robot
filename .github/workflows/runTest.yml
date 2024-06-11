@@ -1,6 +1,7 @@
 name: Run example UI Tests
 on: push
 
+
 jobs:
   run-ui-test:
     name: run tests for ${{ matrix.os }}
